@@ -9,6 +9,7 @@
 
 import Foundation
 import UIKit
+import XCTest
 
 public extension FBSnapshotTestCase {
   public func FBSnapshotVerifyView(_ view: UIView, identifier: String = "", suffixes: NSOrderedSet = FBSnapshotTestCaseDefaultSuffixes(), tolerance: CGFloat = 0, file: StaticString = #file, line: UInt = #line) {
